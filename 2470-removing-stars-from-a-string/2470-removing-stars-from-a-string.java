@@ -1,18 +1,25 @@
 class Solution {
     public String removeStars(String s) {
-       StringBuilder result = new StringBuilder();
-        
-        for (char c : s.toCharArray()) {
-            if (c == '*') {
-                if (result.length() > 0) {
-                    result.deleteCharAt(result.length() - 1);
-                }
+       Stack<Character> stack = new Stack<>();
+
+    for (char c : s.toCharArray()) {
+        if (c == '*') {
+            // הסר את התו האחרון במחסנית אם יש כוכבית
+            if (!stack.isEmpty()) {
+                stack.pop();
             }
-            else {
-                result.append(c);
-            }
+        } else {
+            // הוסף תו רגיל למחסנית
+            stack.push(c);
         }
-        
-        return result.toString();
+    }
+
+    // בניית המחרוזת מהמחסנית
+    StringBuilder result = new StringBuilder();
+    while (!stack.isEmpty()) {
+        result.insert(0, stack.pop());
+    }
+
+    return result.toString();
     }
 }
