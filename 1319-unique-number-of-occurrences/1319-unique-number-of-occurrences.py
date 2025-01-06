@@ -4,16 +4,15 @@ class Solution(object):
         :type arr: List[int]
         :rtype: bool
         """
-        my_dict = dict()
-
+        my_dict = {}
         for item in arr:
-            if item in my_dict:
-                my_dict[item]+=1
-            else:
+            if my_dict.get(item,-1)==-1:
                 my_dict[item]=1
-
-        values = my_dict.values()
-
-        has_duplicates = len(values) != len(set(values))
-        return(not has_duplicates)
-            
+            else:
+                my_dict[item]+=1
+        
+        values = list(my_dict.values())
+        if len(values) != len(set(values)):
+            return False
+        else:
+            return True
