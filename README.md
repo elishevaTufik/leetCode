@@ -91,4 +91,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1777-determine-if-two-strings-are-close](https://github.com/elishevaTufik/leetCode/tree/master/1777-determine-if-two-strings-are-close) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/elishevaTufik/leetCode/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/elishevaTufik/leetCode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
