@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/elishevaTufik/leetCode/tree/master/0027-remove-element) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/elishevaTufik/leetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/elishevaTufik/leetCode/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/elishevaTufik/leetCode/tree/master/0169-majority-element) |
 | [0238-product-of-array-except-self](https://github.com/elishevaTufik/leetCode/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/elishevaTufik/leetCode/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/elishevaTufik/leetCode/tree/master/0334-increasing-triplet-subsequence) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/elishevaTufik/leetCode/tree/master/0169-majority-element) |
 | [1319-unique-number-of-occurrences](https://github.com/elishevaTufik/leetCode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/elishevaTufik/leetCode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1777-determine-if-two-strings-are-close](https://github.com/elishevaTufik/leetCode/tree/master/1777-determine-if-two-strings-are-close) |
@@ -77,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/elishevaTufik/leetCode/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/elishevaTufik/leetCode/tree/master/0169-majority-element) |
 | [1777-determine-if-two-strings-are-close](https://github.com/elishevaTufik/leetCode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/elishevaTufik/leetCode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/elishevaTufik/leetCode/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -110,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/elishevaTufik/leetCode/tree/master/0169-majority-element) |
 | [1777-determine-if-two-strings-are-close](https://github.com/elishevaTufik/leetCode/tree/master/1777-determine-if-two-strings-are-close) |
 ## Linked List
 |  |
@@ -135,4 +139,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0783-search-in-a-binary-search-tree](https://github.com/elishevaTufik/leetCode/tree/master/0783-search-in-a-binary-search-tree) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/elishevaTufik/leetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
