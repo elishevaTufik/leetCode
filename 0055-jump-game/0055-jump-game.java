@@ -4,17 +4,17 @@ class Solution {
         if (nums.length==1)
             return true;
 
-        int canGo=0;
-
-        for(int i=0;i<nums.length;i++){
-            if(canGo<0)
-                return false;
-            else{
-                if(nums[i]>canGo)
-                    canGo=nums[i];
+        boolean[] reachable = new boolean[nums.length];
+        reachable[0] = true;  
+        
+        for (int i = 0; i < nums.length; i++) {
+            if (reachable[i]) { 
+                for (int j = i + 1; j <= i + nums[i] && j < nums.length; j++) {
+                    reachable[j] = true; 
+                }
             }
-            canGo--;
         }
-        return true;
+
+        return reachable[nums.length - 1]; 
     }
 }
