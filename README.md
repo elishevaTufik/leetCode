@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/elishevaTufik/leetCode/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/elishevaTufik/leetCode/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/elishevaTufik/leetCode/tree/master/0283-move-zeroes) |
+| [0312-burst-balloons](https://github.com/elishevaTufik/leetCode/tree/master/0312-burst-balloons) |
 | [0334-increasing-triplet-subsequence](https://github.com/elishevaTufik/leetCode/tree/master/0334-increasing-triplet-subsequence) |
 | [0380-insert-delete-getrandom-o1](https://github.com/elishevaTufik/leetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0605-can-place-flowers](https://github.com/elishevaTufik/leetCode/tree/master/0605-can-place-flowers) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/elishevaTufik/leetCode/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/elishevaTufik/leetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/elishevaTufik/leetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0312-burst-balloons](https://github.com/elishevaTufik/leetCode/tree/master/0312-burst-balloons) |
 | [0392-is-subsequence](https://github.com/elishevaTufik/leetCode/tree/master/0392-is-subsequence) |
 ## Binary Search
 |  |
