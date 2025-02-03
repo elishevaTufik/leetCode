@@ -7,12 +7,7 @@ public class Solution {
             currentAltitude += gain[i];
             highestAltitude = Math.Max(highestAltitude, currentAltitude);
         }
-        // foreach (int g in gain)
-        // {
-        //     currentAltitude += g;
-        //     highestAltitude = Math.Max(highestAltitude, currentAltitude);
-        // }
-
+       
         return highestAltitude;
     }
 }
