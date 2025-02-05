@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0058-length-of-last-word](https://github.com/elishevaTufik/leetCode/tree/master/0058-length-of-last-word) |
 | [0151-reverse-words-in-a-string](https://github.com/elishevaTufik/leetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/elishevaTufik/leetCode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/elishevaTufik/leetCode/tree/master/0392-is-subsequence) |
