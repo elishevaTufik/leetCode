@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/elishevaTufik/leetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/elishevaTufik/leetCode/tree/master/0027-remove-element) |
+| [0036-valid-sudoku](https://github.com/elishevaTufik/leetCode/tree/master/0036-valid-sudoku) |
 | [0045-jump-game-ii](https://github.com/elishevaTufik/leetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/elishevaTufik/leetCode/tree/master/0055-jump-game) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/elishevaTufik/leetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/elishevaTufik/leetCode/tree/master/0036-valid-sudoku) |
 | [0169-majority-element](https://github.com/elishevaTufik/leetCode/tree/master/0169-majority-element) |
 | [0380-insert-delete-getrandom-o1](https://github.com/elishevaTufik/leetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [1319-unique-number-of-occurrences](https://github.com/elishevaTufik/leetCode/tree/master/1319-unique-number-of-occurrences) |
@@ -149,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/elishevaTufik/leetCode/tree/master/0036-valid-sudoku) |
 | [2428-equal-row-and-column-pairs](https://github.com/elishevaTufik/leetCode/tree/master/2428-equal-row-and-column-pairs) |
 ## Tree
 |  |
