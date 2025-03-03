@@ -11,27 +11,26 @@
 class Solution {
      public static ListNode oddEvenList(ListNode head) {
         if (head == null || head.next == null) {
-            return head; // No need to reorder if there's 0 or 1 node
+            return head; 
         }
 
-        ListNode odd = head; // Points to the first node (odd)
-        ListNode even = head.next; // Points to the second node (even)
-        ListNode evenHead = even; // Store the head of the even list
+        ListNode odd = head; 
+        ListNode even = head.next; 
+        ListNode evenHead = even;
 
         while (even != null && even.next != null) {
-            odd.next = even.next; // Link current odd to the next odd node
-            odd = odd.next; // Move odd pointer
+            odd.next = even.next; 
+            odd = odd.next;
 
-            even.next = odd.next; // Link current even to the next even node
-            even = even.next; // Move even pointer
+            even.next = odd.next; 
+            even = even.next; 
         }
 
-        odd.next = evenHead; // Connect the odd list with the even list
+        odd.next = evenHead; 
 
         return head;
     }
 
-    // Helper function to print the linked list
     public static void printList(ListNode head) {
         ListNode temp = head;
         while (temp != null) {
