@@ -3,10 +3,9 @@ class Solution {
         if(nums.length==1)
             return 0;
 
-        int k=1;
-        int max=0,zeros=0;
+        int max=0,zeros=0,k=1;
 
-        for(int i=0,j=0;i<nums.length;){
+        for(int i=0,j=0;i<nums.length;i++){
 
             if(nums[i]==0)  
                 zeros++;
@@ -18,7 +17,6 @@ class Solution {
                 j++;
             }
             max = Math.max(max, (i - j + 1));
-            i++;
         }
         return max-1;
     }
