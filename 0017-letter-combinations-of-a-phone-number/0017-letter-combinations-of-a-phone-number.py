@@ -13,8 +13,3 @@ class Solution(object):
         letters = [mapping[d] for d in digits]
         combos = itertools.product(*letters)
         return [''.join(c) for c in combos]
-
-
-# דוגמה:
-sol = Solution()
-print(sol.letterCombinations("23"))
