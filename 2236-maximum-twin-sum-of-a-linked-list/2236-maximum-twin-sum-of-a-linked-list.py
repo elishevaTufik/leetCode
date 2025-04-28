@@ -14,7 +14,6 @@ class Solution(object):
             slow = slow.next
             fast = fast.next.next
 
-        # 2. Reverse second half in-place
         prev = None
         curr = slow
         while curr:
@@ -22,12 +21,10 @@ class Solution(object):
             curr.next = prev
             prev = curr
             curr = nxt
-        # prev now points to head of reversed second half
 
-        # 3. Walk first half and reversed second half
         max_sum = 0
         p1, p2 = head, prev
-        while p2:  # second half may be shorter/equal
+        while p2: 
             max_sum = max(max_sum, p1.val + p2.val)
             p1 = p1.next
             p2 = p2.next
