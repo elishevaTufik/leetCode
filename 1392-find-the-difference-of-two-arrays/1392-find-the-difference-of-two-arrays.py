@@ -5,12 +5,10 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: List[List[int]]
         """
-        set1, set2 = set(nums1), set(nums2)
-
-        diff1 = list(set1 - set2)
-
-        diff2 = list(set2 - set1)
-
-        return [diff1, diff2]
-
+        set1 = set(nums1)
+        set2 = set(nums2)
         
+        only_in_nums1 = list(set1 - set2)
+        only_in_nums2 = list(set2 - set1)
+        
+        return [only_in_nums1, only_in_nums2]
