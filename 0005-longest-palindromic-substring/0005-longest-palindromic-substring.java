@@ -9,7 +9,7 @@ class Solution {
             String tmpStr = s.charAt(i) + "";
             while (left >= 0 && right < s.length()) {
                 if (s.charAt(left) == s.charAt(right)) {
-                    tmpStr = s.charAt(left) + tmpStr + s.charAt(right); // use right here
+                    tmpStr = s.charAt(left) + tmpStr + s.charAt(right); 
                     left--;
                     right++;
                 } else break;
